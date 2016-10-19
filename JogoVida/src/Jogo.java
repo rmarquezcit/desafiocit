@@ -19,5 +19,23 @@ public class Jogo {
 		}
 		return str;
 	}
+	
+	public String[][] inicializaTabuleiroTeste(){
+		String[][] tabuleiro = {{"X", "X", "X", "X", "X"}, {"X", "X", "O", "O", "X"}, {"X", "0", "0", "O", "X"}, {"X", "X", "X", "X", "X"}};
+		
+		return tabuleiro;
+	}
+	
+	
+	public void resultado(String[][] tabuleiro){
+		if(tabuleiro != null){
+			for(int i=0; i<4; i++){
+				for(int j=0; j<5; j++){
+					System.out.print(tabuleiro[i][j] + " ");
+				}
+				System.out.println("\n");
+			}
+		}
+	}
 
 }
