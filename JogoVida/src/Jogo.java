@@ -53,12 +53,6 @@ public class Jogo {
 		}
 	}
 	
-	public static void main(String[] args) {
-		Jogo j = new Jogo(4,5);
-		j.print();
-	}
-	
-	
 	public String logicaMorto(int vizinhos){
 		String str = "0";
 		if(vizinhos == 3){
