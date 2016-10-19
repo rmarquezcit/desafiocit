@@ -2,6 +2,8 @@
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Jogo j = new Jogo(4, 5);
+		j.print();
 	}
+
 }
